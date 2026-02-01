@@ -1,0 +1,43 @@
+{
+  "title": "What to say (and what to avoid)",
+  "intro": "If you're unsure, keep it simple. Offer options, not pressure.",
+  "categories": [
+    {
+      "id": "checking-in",
+      "title": "Checking in (colleague/manager)",
+      "scripts": [
+        "Hope Ramadan's going well — anything you want me to be aware of?",
+        "Want to move this meeting earlier?",
+        "No pressure either way — just tell me what helps."
+      ]
+    },
+    {
+      "id": "food-situations",
+      "title": "Food situations",
+      "scripts": [
+        "We're ordering lunch — want us to include something for later, or skip you this time?",
+        "No worries at all if you're not joining — we'll catch you after."
+      ]
+    },
+    {
+      "id": "social-invites",
+      "title": "Social invites (iftar)",
+      "scripts": [
+        "We're doing an iftar — you're welcome. Fasting isn't required.",
+        "Come even if you just want to hang out — totally up to you."
+      ]
+    },
+    {
+      "id": "what-to-avoid",
+      "title": "What to avoid",
+      "isNegative": true,
+      "scripts": [
+        "Are you fasting?",
+        "Why aren't you fasting?",
+        "That must be so hard — I could never.",
+        "So you can't even drink water??",
+        "You seem tired today…"
+      ]
+    }
+  ]
+}

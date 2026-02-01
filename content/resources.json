@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-02-01",
+  "intro": "This guide is built from reputable workplace and public resources, plus research on sleep and routine changes during Ramadan. It prioritises practical guidance and avoids overgeneralising.",
+  "categories": [
+    {
+      "title": "Workplace guidance",
+      "sources": [
+        {
+          "name": "ACAS — Religion or belief discrimination",
+          "url": "https://www.acas.org.uk/religion-or-belief-discrimination"
+        },
+        {
+          "name": "CIPD — Religion and belief in the workplace",
+          "url": "https://www.cipd.co.uk/knowledge/fundamentals/relations/diversity/religion-belief-guide"
+        },
+        {
+          "name": "Equality and Human Rights Commission",
+          "url": "https://www.equalityhumanrights.com/"
+        }
+      ]
+    },
+    {
+      "title": "Health and wellbeing",
+      "sources": [
+        {
+          "name": "NHS — Fasting and health",
+          "url": "https://www.nhs.uk/live-well/healthy-body/fasting-and-your-health/"
+        },
+        {
+          "name": "British Islamic Medical Association",
+          "url": "https://www.britishima.org/"
+        }
+      ]
+    },
+    {
+      "title": "Cultural and religious context",
+      "sources": [
+        {
+          "name": "Muslim Council of Britain",
+          "url": "https://mcb.org.uk/"
+        },
+        {
+          "name": "IslamicFinder — Prayer times",
+          "url": "https://www.islamicfinder.org/"
+        }
+      ]
+    }
+  ],
+  "supportEmail": "hello@ramadanatwork.com"
+}

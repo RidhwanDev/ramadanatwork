@@ -1,0 +1,115 @@
+{
+  "roles": [
+    {
+      "id": "colleague",
+      "label": "Colleague",
+      "ogTitle": "Ramadan at Work — Colleague guide",
+      "title": "What helps as a colleague",
+      "dos": [
+        "Do keep things normal — a quick 'Ramadan Mubarak' is kind, but not required.",
+        "Do schedule team coffees/lunches with awareness (and don't pressure anyone to join).",
+        "Do offer simple flexibility: 'Want to move this earlier?'",
+        "Do be mindful late afternoon can be harder for some people.",
+        "Do include people in social plans — they might still want to come, even if they're not eating."
+      ],
+      "donts": [
+        "Don't repeatedly offer food or water.",
+        "Don't ask 'Are you fasting?' or 'Why aren't you fasting?'",
+        "Don't comment on performance, weight, or willpower.",
+        "Don't assume everyone follows the same routine or prayer schedule."
+      ],
+      "checklist": [
+        "Avoid repeated food offers.",
+        "Be flexible with timing.",
+        "Don't ask who's fasting.",
+        "Keep invites inclusive."
+      ]
+    },
+    {
+      "id": "manager",
+      "label": "Manager",
+      "ogTitle": "Ramadan at Work — Manager guide",
+      "title": "What helps as a manager",
+      "dos": [
+        "Do ask privately, early: 'Is there anything that would help during Ramadan?'",
+        "Do consider shifting demanding work earlier in the day where possible.",
+        "Do offer temporary flexibility (start earlier, shorter lunch, finish earlier).",
+        "Do avoid defaulting to working lunches.",
+        "Do plan for the last ten nights — some people may request leave or lighter evenings."
+      ],
+      "donts": [
+        "Don't assume reduced capability — let the person tell you what they need.",
+        "Don't make Ramadan support a public announcement about one person.",
+        "Don't schedule mandatory team meals at sunset without alternatives."
+      ],
+      "checklist": [
+        "Private check-in early.",
+        "Schedule heavier work earlier where possible.",
+        "Avoid working lunches.",
+        "Plan for last ten nights."
+      ]
+    },
+    {
+      "id": "hr",
+      "label": "HR / DEI",
+      "ogTitle": "Ramadan at Work — HR/DEI guide",
+      "title": "What helps as HR / DEI",
+      "dos": [
+        "Do provide a short manager briefing: what Ramadan is, what changes, what not to assume.",
+        "Do ensure prayer/quiet space guidance is clear (and how to request it).",
+        "Do remind teams: not everyone fasts — privacy matters.",
+        "Do encourage reversible, light-touch adjustments.",
+        "Do make print/share resources easy to circulate internally."
+      ],
+      "donts": [
+        "Don't create one-size-fits-all rules — enable conversations instead.",
+        "Don't require disclosure of health reasons for not fasting."
+      ],
+      "checklist": [
+        "Share manager briefing.",
+        "Confirm prayer/quiet space access.",
+        "Remind teams about privacy + non-assumptions.",
+        "Provide printable one-pager."
+      ]
+    },
+    {
+      "id": "friend",
+      "label": "Friend / Partner",
+      "ogTitle": "Ramadan at Work — Friend/partner guide",
+      "title": "What helps at home or socially",
+      "dos": [
+        "Do expect evenings to be full (iftar, family, prayer) and energy to be lower late day.",
+        "Do plan key tasks earlier and keep late nights realistic.",
+        "Do ask what support looks like: 'More quiet time? Help with chores? Less social stuff?'",
+        "Do join iftars — fasting isn't required to share a meal."
+      ],
+      "donts": [
+        "Don't police what someone eats at iftar.",
+        "Don't treat tiredness as a moral failure.",
+        "Don't assume every day feels the same across the month."
+      ],
+      "checklist": [
+        "Plan evenings realistically.",
+        "Help protect sleep.",
+        "Ask what support looks like.",
+        "Join iftar without pressure."
+      ]
+    },
+    {
+      "id": "not-fasting",
+      "label": "Not fasting",
+      "ogTitle": "Ramadan at Work — Not fasting & privacy guide",
+      "title": "If you're Muslim and not fasting",
+      "intro": "You don't owe anyone an explanation. Some people are exempt, some choose not to fast, and it's nobody's business.",
+      "supportivePoints": [
+        "You can still take part in Ramadan in other ways — worship, charity, reflection, community.",
+        "People may assume. You're allowed to set boundaries."
+      ],
+      "checklist": [
+        "You don't owe explanations.",
+        "Choose boundaries that feel safe.",
+        "You can still participate in Ramadan in other ways."
+      ]
+    }
+  ]
+}

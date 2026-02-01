@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "id": "month-evolution",
+      "title": "How the month changes (early vs middle vs last ten)",
+      "summary": "Early days often feel like adjustment. Mid-month tends to stabilise. The last ten nights often involve later nights and increased worship.",
+      "content": {
+        "earlyDays": [
+          "People may be adapting to a new rhythm: earlier wake-ups for suhoor, reduced caffeine, and daytime fasting.",
+          "Headaches or tiredness can happen early on for some, especially with caffeine changes."
+        ],
+        "midMonth": [
+          "Many people settle into a routine: timing, meals, work patterns."
+        ],
+        "lastTenNights": [
+          "Many Muslims increase worship and may stay up later, seeking Laylat al-Qadr.",
+          "This can increase late-night demand and lead to more leave requests or earlier finishes."
+        ]
+      }
+    },
+    {
+      "id": "taraweeh-sleep",
+      "title": "Night prayers (taraweeh) and sleep",
+      "summary": "Taraweeh is an extra night prayer in Ramadan. Combined with suhoor, sleep can compress.",
+      "content": {
+        "points": [
+          "Some people attend taraweeh in congregation; length varies widely.",
+          "When bedtime shifts later and wake-up shifts earlier, sleep can be shorter."
+        ],
+        "takeaways": [
+          "Earlier meetings can help.",
+          "Be careful with late-day high-stakes tasks where possible."
+        ]
+      }
+    },
+    {
+      "id": "why-fast",
+      "title": "Why Muslims fast (non-preachy)",
+      "summary": "Fasting is about self-discipline, worship, reflection, and compassion — not just food.",
+      "content": {
+        "points": [
+          "Ramadan emphasises spiritual focus, charity, gratitude, and community.",
+          "For many people, behaviour and character matter as much as the fast itself."
+        ]
+      }
+    },
+    {
+      "id": "social-dynamics",
+      "title": "Social dynamics (what's actually awkward)",
+      "summary": "Most awkward moments come from assumptions — not from eating in front of someone.",
+      "content": {
+        "points": [
+          "It's okay for others to eat; repeated offering can be uncomfortable.",
+          "Some people don't want attention at work.",
+          "Non-fasting Muslims often face intrusive questions — privacy matters."
+        ]
+      }
+    },
+    {
+      "id": "health-safety",
+      "title": "Health and safety notes (non-medical)",
+      "summary": "This is not medical advice. If someone has health concerns, they should seek professional guidance.",
+      "content": {
+        "points": [
+          "Some roles are safety-critical; individuals may make different decisions.",
+          "Employers can support by enabling temporary adjustments and breaks."
+        ]
+      }
+    }
+  ]
+}

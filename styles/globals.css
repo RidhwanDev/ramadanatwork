@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-sand-50: 253 251 247;
+    --color-sand-100: 249 245 237;
+    --color-sand-200: 242 232 213;
+    --color-night-900: 30 35 40;
+    --color-night-950: 19 23 26;
+    --color-crescent-500: 240 196 92;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply font-body text-night-900 bg-sand-50 antialiased;
+    background-image: 
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245, 212, 133, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 30% at 80% 10%, rgba(180, 160, 200, 0.08) 0%, transparent 40%);
+    min-height: 100vh;
+  }
+
+  ::selection {
+    @apply bg-crescent-500/30 text-night-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-spacing {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl border border-sand-200 shadow-sm;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 
+           bg-night-800 text-sand-50 font-medium rounded-xl
+           hover:bg-night-700 transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-night-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5
+           bg-sand-100 text-night-800 font-medium rounded-xl border border-sand-300
+           hover:bg-sand-200 transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-sand-400 focus:ring-offset-2;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-3 py-1.5
+           text-night-600 font-medium rounded-lg
+           hover:bg-sand-100 transition-colors duration-200
+           focus:outline-none focus:ring-2 focus:ring-sand-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent 
+           bg-gradient-to-r from-night-800 via-dusk-600 to-night-700;
+  }
+
+  .link {
+    @apply text-dusk-600 underline decoration-dusk-300 underline-offset-2
+           hover:text-dusk-700 hover:decoration-dusk-500 transition-colors;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0; 
+      transform: translateY(10px); 
+    }
+    to { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes slideDown {
+    from {
+      height: 0;
+      opacity: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+      opacity: 1;
+    }
+  }
+
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+
+  .animate-slideDown {
+    animation: slideDown 0.3s ease-out forwards;
+  }
+}

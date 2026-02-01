@@ -1,0 +1,89 @@
+{
+  "name": "Ramadan at Work",
+  "tagline": "A practical guide to support colleagues, friends, and family during Ramadan.",
+  "lastUpdated": "2026-02-01",
+  "disclaimer": "Dates and practices can vary by community. This guide is practical and non-judgmental — and it never assumes who is or isn't fasting.",
+  "meta": {
+    "title": "Ramadan at Work: A practical guide for colleagues, managers & HR",
+    "description": "A calm, practical guide to support colleagues during Ramadan — etiquette, scheduling tips, what to say, and deeper context on sleep, prayer, and the last ten nights."
+  },
+  "hero": {
+    "h1": "Ramadan at Work",
+    "subhead": "A practical guide for colleagues, managers and HR to understand etiquettes and practices during Ramadan at work.",
+    "helperText": "You don't need to be an expert to be supportive. A bit of awareness goes a long way.",
+    "rolePrompt": "Who are you here as?"
+  },
+  "essentials": {
+    "title": "In 60 seconds",
+    "bullets": [
+      "Ramadan is a month of fasting, worship, reflection, and charity for Muslims.",
+      "Many people fast from dawn to sunset — no food or drink (including water) during fasting hours.",
+      "Not everyone fasts. Some people are exempt or choose not to fast — don't ask why.",
+      "Energy can dip late afternoon. Evenings can be busy with iftar (breaking the fast) and extra night prayers.",
+      "The first few days can feel like an adjustment; the last ten nights often involve increased worship and later nights."
+    ],
+    "cta": "Want the practical do's and don'ts? Pick your role below."
+  },
+  "prayerTimes": {
+    "title": "Approximate fasting window (optional)",
+    "helperText": "Useful for planning meetings and socials. Times vary by method — always defer to local mosque timetables.",
+    "cityPlaceholder": "e.g., London",
+    "countryPlaceholder": "e.g., United Kingdom",
+    "methodLabel": "Calculation method",
+    "fajrLabel": "Fast begins (Fajr):",
+    "maghribLabel": "Fast ends (Maghrib):",
+    "footnote": "Approximate. Community timetables may differ."
+  },
+  "roleIntro": "Small, respectful adjustments beat big gestures. The key is to offer flexibility without singling anyone out.",
+  "notFasting": {
+    "title": "Not everyone fasts — and it's not a conversation topic",
+    "body": "Some Muslims won't fast for personal, health, or other reasons. Some will fast some days and not others. A respectful workplace doesn't interrogate it.",
+    "rules": [
+      "Don't ask why someone is eating or drinking.",
+      "Don't quiz people on who is 'really' fasting.",
+      "Don't treat non-fasting as something to justify."
+    ],
+    "scripts": [
+      {
+        "label": "Short",
+        "text": "Appreciate you checking — I'm not discussing my fasting."
+      },
+      {
+        "label": "Friendly",
+        "text": "Thanks — Ramadan looks different for everyone. I'm good, don't worry."
+      },
+      {
+        "label": "Direct",
+        "text": "I'd rather not talk about it."
+      }
+    ]
+  },
+  "diveDeeper": {
+    "title": "Dive deeper",
+    "intro": "If you only read one thing: routines shift. The first days can be an adjustment, and the last ten nights can be later and more intense for worship. Everyone's Ramadan looks different."
+  },
+  "resources": {
+    "title": "Want something you can send to your team?",
+    "body": "Use the print one-pager, or share a role-specific link.",
+    "printButton": "Print one-pager",
+    "copyButton": "Copy link to my role"
+  },
+  "workplacePack": {
+    "title": "Workplace Pack (paid)",
+    "body": "Ready-to-use templates for managers and HR: a short briefing, checklists, and printable posters.",
+    "button": "Get the Workplace Pack"
+  },
+  "donation": {
+    "title": "Support the guide",
+    "body": "If this helped your team, you can support ongoing updates.",
+    "button": "Donate"
+  },
+  "toasts": {
+    "copied": "Copied.",
+    "linkCopied": "Link copied.",
+    "copyError": "Couldn't copy — try manually."
+  },
+  "errors": {
+    "prayerTimes": "Couldn't load times right now. Try again, or check your local mosque timetable."
+  }
+}
