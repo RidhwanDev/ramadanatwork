@@ -57,6 +57,7 @@ const SiteSchema = z.object({
     body: z.string(),
     printButton: z.string(),
     copyButton: z.string(),
+    supportEmail: z.string(),
   }),
   workplacePack: z.object({
     title: z.string(),
