@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/lib/content";
+import { RegisterInterestForm } from "@/components/RegisterInterestForm";
 
 export const metadata: Metadata = {
   title: "Workplace Pack",
@@ -91,30 +92,30 @@ export default function WorkplacePackPage() {
           </ul>
         </section>
 
-        {/* Pricing */}
+        {/* Purchase */}
         <section className="card p-8 mb-8 bg-gradient-to-br from-dusk-50 to-sand-50 border-dusk-200">
           <h2 className="font-display text-2xl font-semibold text-night-800 mb-6">
-            Pricing
+            Purchase
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-xl p-6 border border-sand-200">
-              <h3 className="font-display text-xl font-semibold text-night-800 mb-2">Individual</h3>
-              <p className="text-3xl font-bold text-dusk-600 mb-4">£19</p>
-              <p className="text-night-600 text-sm mb-4">One-time purchase for a single workplace or team.</p>
-              <button className="btn-primary w-full">
-                Buy Individual Pack
-              </button>
-            </div>
-            <div className="bg-white rounded-xl p-6 border-2 border-dusk-300">
-              <div className="inline-block bg-dusk-600 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">
-                POPULAR
+          <div className="bg-white rounded-xl p-8 border-2 border-dusk-300 max-w-md mx-auto">
+            <div className="text-center mb-6">
+              <div className="inline-block bg-dusk-600 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
+                COMING SOON
               </div>
-              <h3 className="font-display text-xl font-semibold text-night-800 mb-2">Team License</h3>
-              <p className="text-3xl font-bold text-dusk-600 mb-4">£49</p>
-              <p className="text-night-600 text-sm mb-4">For organizations with multiple teams or departments.</p>
-              <button className="btn-primary w-full">
-                Buy Team License
-              </button>
+              <p className="text-4xl font-bold text-dusk-600 mb-2">£49</p>
+              <p className="text-night-600 text-sm">
+                One-time purchase for your organization
+              </p>
+            </div>
+
+            <div className="border-t border-sand-200 pt-6">
+              <h3 className="font-display text-lg font-semibold text-night-800 mb-4 text-center">
+                Register your interest
+              </h3>
+              <p className="text-sm text-night-600 mb-6 text-center">
+                We&apos;ll notify you when the Workplace Pack is available for purchase.
+              </p>
+              <RegisterInterestForm />
             </div>
           </div>
         </section>

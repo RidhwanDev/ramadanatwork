@@ -5,7 +5,7 @@ export function WorkplacePackCTA() {
   return (
     <section className="section-spacing">
       <div className="section-container">
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-1 gap-6">
           {/* Workplace Pack */}
           <div className="card p-6 sm:p-8 bg-gradient-to-br from-dusk-100/50 to-sand-50 border-dusk-200">
             <div className="flex items-start gap-4 mb-4">
@@ -27,7 +27,7 @@ export function WorkplacePackCTA() {
           </div>
 
           {/* Donation */}
-          <div className="card p-6 sm:p-8 bg-gradient-to-br from-crescent-500/10 to-sand-50 border-crescent-300/50">
+          {/* <div className="card p-6 sm:p-8 bg-gradient-to-br from-crescent-500/10 to-sand-50 border-crescent-300/50">
             <div className="flex items-start gap-4 mb-4">
               <span className="w-12 h-12 rounded-xl bg-crescent-100 flex items-center justify-center flex-shrink-0">
                 <span className="text-2xl">💛</span>
@@ -47,7 +47,7 @@ export function WorkplacePackCTA() {
             >
               {site.donation.button}
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
