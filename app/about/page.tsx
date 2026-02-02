@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { site } from "@/lib/content";
+import { resources, site } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "About",
@@ -66,6 +66,20 @@ export default function AboutPage() {
             </ul>
           </div>
 
+          <div className="card p-8 mt-8 bg-dusk-50 border-dusk-200">
+          <h2 className="font-display text-lg font-semibold text-night-800 mb-3">
+            Feedback & Suggestions
+          </h2>
+          <p className="text-night-600 mb-4">
+            If you spot an issue or want to suggest an improvement, we&apos;d love to hear from you.
+          </p>
+          <a
+            href={`mailto:${resources.supportEmail}?subject=About Ramadan at Work`}
+            className="link font-medium"
+          >
+            {resources.supportEmail}
+          </a>
+        </div>
           <div className="mt-8 text-center">
             <Link href="/sources" className="btn-primary">
               See sources and last updated →

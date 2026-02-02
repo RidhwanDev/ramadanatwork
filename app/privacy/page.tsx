@@ -1,3 +1,4 @@
+import { resources } from "@/lib/content";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -106,8 +107,8 @@ export default function PrivacyPage() {
               </h2>
               <p className="text-night-600">
                 For privacy questions or requests, contact us at:{" "}
-                <a href="mailto:hello@ramadanatwork.com" className="link">
-                  hello@ramadanatwork.com
+                <a href={`mailto:${resources.supportEmail}?subject=Privacy Question`} className="link">
+                  {resources.supportEmail}
                 </a>
               </p>
             </section>

@@ -1,3 +1,4 @@
+import { resources } from "@/lib/content";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -40,7 +41,7 @@ export default function SuccessPage() {
               Back to main guide
             </Link>
             <a
-              href={`mailto:hello@ramadanatwork.com?subject=Workplace Pack Download Issue`}
+              href={`mailto:${resources.supportEmail}?subject=Workplace Pack Download Issue`}
               className="btn-secondary"
             >
               Need help?
