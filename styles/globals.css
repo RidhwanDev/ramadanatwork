@@ -42,7 +42,7 @@
   }
 
   .section-spacing {
-    @apply py-12 sm:py-16 lg:py-20;
+    @apply py-3 sm:py-4 lg:py-5;
   }
 
   .card {

@@ -22,14 +22,15 @@ export function DiveDeeper() {
             <Accordion.Item
               key={section.id}
               value={section.id}
-              className="bg-night-800/50 rounded-xl overflow-hidden border border-night-700"
+              className="bg-night-800/50 rounded-xl border border-night-700"
             >
-              <Accordion.Header>
+              <Accordion.Header className="overflow-hidden rounded-xl">
                 <Accordion.Trigger
                   className={cn(
-                    "w-full flex items-center justify-between gap-4 p-5 text-left",
+                    "w-full flex items-center justify-between gap-4 p-5 text-left rounded-t-xl",
                     "hover:bg-night-700/50 transition-colors duration-200",
-                    "focus:outline-none focus:ring-2 focus:ring-inset focus:ring-crescent-500",
+                    "focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-crescent-500 focus:ring-offset-night-900",
+                    "group-data-[state=closed]:rounded-xl",
                     "group"
                   )}
                 >
@@ -48,7 +49,7 @@ export function DiveDeeper() {
                   </span>
                 </Accordion.Trigger>
               </Accordion.Header>
-              <Accordion.Content className="overflow-hidden data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp">
+              <Accordion.Content className="overflow-hidden rounded-b-xl data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp">
                 <div className="px-5 pb-5 pt-2 border-t border-night-700">
                   <AccordionContent section={section} />
                 </div>

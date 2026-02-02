@@ -1,0 +1,14 @@
+Ramadan at Work — Manager Briefing (Sample)
+=========================================
+
+This is a sample placeholder file to represent the editable manager briefing document.
+
+In production, this would typically be provided as:
+- A Word document (.docx) you can customize with your organisation's branding
+- A PDF version for quick sharing
+
+Suggested sections:
+- What Ramadan is and what changes at work
+- Practical adjustments and scheduling guidance
+- Privacy-first principles (never ask why someone is or isn't fasting)
+- Last ten nights and leave planning

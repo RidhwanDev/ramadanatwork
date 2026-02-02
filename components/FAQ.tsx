@@ -20,14 +20,14 @@ export function FAQ() {
               <Accordion.Item
                 key={index}
                 value={`faq-${index}`}
-                className="card overflow-hidden"
+                className="card rounded-xl border"
               >
-                <Accordion.Header>
+                <Accordion.Header className="overflow-hidden rounded-xl">
                   <Accordion.Trigger
                     className={cn(
-                      "w-full flex items-center justify-between gap-4 p-5 text-left",
+                      "w-full flex items-center justify-between gap-4 p-5 text-left rounded-t-xl",
                       "hover:bg-sand-50 transition-colors duration-200",
-                      "focus:outline-none focus:ring-2 focus:ring-inset focus:ring-dusk-400",
+                      "group-data-[state=closed]:rounded-xl",
                       "group"
                     )}
                   >
@@ -41,11 +41,12 @@ export function FAQ() {
                     </span>
                   </Accordion.Trigger>
                 </Accordion.Header>
-                <Accordion.Content className="overflow-hidden data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp">
+                <Accordion.Content className="overflow-hidden rounded-b-xl data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp">
                   <div className="px-5 pb-5 pt-0">
-                    <p className="text-night-600 leading-relaxed">
-                      {item.answer}
-                    </p>
+                    <p 
+                      className="text-night-600 leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: item.answer }}
+                    />
                   </div>
                 </Accordion.Content>
               </Accordion.Item>

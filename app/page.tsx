@@ -38,7 +38,7 @@ export default function HomePage() {
       </div>
 
       {/* Hero */}
-      <section className="section-spacing pb-8">
+      <section className="section-spacing py-10">
         <div className="section-container text-center">
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-gradient mb-6 animate-fade-in">
             {site.hero.h1}
@@ -56,13 +56,13 @@ export default function HomePage() {
       <Essentials />
 
       {/* Prayer Times Widget */}
-      <section className="pb-8">
+      {/* <section className="pb-8">
         <div className="section-container">
           <div className="max-w-xl mx-auto">
             <PrayerTimesWidget />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Role Tabs */}
       <Suspense fallback={
@@ -78,11 +78,12 @@ export default function HomePage() {
         <RoleTabs />
       </Suspense>
 
+      {/* Scripts */}
+      <Scripts />
+      
       {/* Not Fasting Section */}
       <NotFastingSection />
 
-      {/* Scripts */}
-      <Scripts />
 
       {/* Print CTA */}
       <PrintCTA />

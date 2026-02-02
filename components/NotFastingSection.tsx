@@ -21,7 +21,7 @@ export function NotFastingSection() {
           </div>
 
           {/* Rules */}
-          <div className="bg-white/70 rounded-xl p-5 mb-6">
+          <div className="bg-white/70 rounded-xl p-5">
             <ul className="space-y-3">
               {site.notFasting.rules.map((rule, i) => (
                 <li key={i} className="flex gap-3 items-start text-night-800 font-medium">
@@ -30,29 +30,6 @@ export function NotFastingSection() {
                 </li>
               ))}
             </ul>
-          </div>
-
-          {/* Boundary scripts */}
-          <div>
-            <h3 className="font-display text-lg font-semibold text-night-800 mb-4">
-              Boundary scripts (if you need them)
-            </h3>
-            <div className="space-y-3">
-              {site.notFasting.scripts.map((script, i) => (
-                <div
-                  key={i}
-                  className="flex items-center justify-between gap-4 p-4 bg-white rounded-lg border border-sand-200"
-                >
-                  <div className="flex gap-3 items-center">
-                    <span className="text-xs font-medium text-dusk-500 uppercase tracking-wide">
-                      {script.label}
-                    </span>
-                    <span className="text-night-700 italic">&ldquo;{script.text}&rdquo;</span>
-                  </div>
-                  <CopyButton text={script.text} variant="compact" />
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

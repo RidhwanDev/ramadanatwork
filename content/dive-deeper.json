@@ -2,7 +2,7 @@
   "sections": [
     {
       "id": "month-evolution",
-      "title": "How the month changes (early vs middle vs last ten)",
+      "title": "How the month changes (early vs middle vs last ten days)",
       "summary": "Early days often feel like adjustment. Mid-month tends to stabilise. The last ten nights often involve later nights and increased worship.",
       "content": {
         "earlyDays": [
@@ -20,11 +20,12 @@
     },
     {
       "id": "taraweeh-sleep",
-      "title": "Night prayers (taraweeh) and sleep",
+      "title": "Night prayers (Taraweeh & Tahajjud) and sleep",
       "summary": "Taraweeh is an extra night prayer in Ramadan. Combined with suhoor, sleep can compress.",
       "content": {
         "points": [
           "Some people attend taraweeh in congregation; length varies widely.",
+          "Additional night prayers (Tahajjud) are also common, which are done between the Taraweeh and Suhoor prayers. This means that muslims may have to wake up earlier to attend these prayers.",
           "When bedtime shifts later and wake-up shifts earlier, sleep can be shorter."
         ],
         "takeaways": [
@@ -35,7 +36,7 @@
     },
     {
       "id": "why-fast",
-      "title": "Why Muslims fast (non-preachy)",
+      "title": "Why Muslims fast",
       "summary": "Fasting is about self-discipline, worship, reflection, and compassion — not just food.",
       "content": {
         "points": [
