@@ -99,13 +99,13 @@ export default function WorkplacePackPage() {
           </h2>
           <div className="bg-white rounded-xl p-8 border-2 border-dusk-300 max-w-md mx-auto">
             <div className="text-center mb-6">
-              <div className="inline-block bg-dusk-600 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
+              <div className="inline-block bg-dusk-600 text-white text-xs font-semibold px-3 py-1 rounded-full">
                 COMING SOON
               </div>
-              <p className="text-4xl font-bold text-dusk-600 mb-2">£49</p>
+              {/* <p className="text-4xl font-bold text-dusk-600 mb-2">£49</p>
               <p className="text-night-600 text-sm">
                 One-time purchase for your organization
-              </p>
+              </p> */}
             </div>
 
             <div className="border-t border-sand-200 pt-6">
